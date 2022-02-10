@@ -1,0 +1,119 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background : white;
+    color : black;
+}
+
+
+
+.caixa{
+			position: relative;
+			top: 100px;
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			background-color:   hsla(360, 59%, 55%, 0.82) ;
+			border-radius: 10px;
+	}
+	
+.circle1{
+			width: 70px;
+			height: 70px;
+			border-radius: 35px;
+			background-color: white;
+			position: absolute;
+			top: 65px;
+			left: 65px;
+			box-shadow: 4px 6px 22px 2px rgba(0,0,0,0.46);
+			
+			
+			animation: 2s c1 linear alternate;
+			animation-iteration-count: infinite;
+}
+
+.circle2{
+			width: 45px;
+			height: 45px;
+			border-radius: 22.5px;
+			position: absolute;
+			background-color: white;
+			top: 77.5px;
+			left: 77.5px;
+			box-shadow: 4px 6px 22px 2px rgba(0,0,0,0.46);
+			
+			
+			animation: 2s c2 linear alternate;
+			animation-iteration-count: infinite;
+}
+
+.circle3{
+			width:  20px;
+			height: 20px;
+			border-radius: 10px;
+			position: absolute;
+			background-color: white;
+		  top: 90px;
+			left: 90px;
+			box-shadow: 4px 6px 22px 2px rgba(0,0,0,0.46);
+			
+			
+			animation: 2s c3 linear alternate;
+			animation-iteration-count: infinite;
+}
+
+@keyframes c1{
+		from{
+				width: 0;
+				height: 0;
+				top: 100px;
+				left: 100px;
+		}
+		to{
+				width: 70px;
+				height: 70px;
+				top: 65px;
+				left: 65px;
+		}
+} 
+
+@keyframes c2{
+		from{
+				width: 0;
+				height: 0;
+				top: 100px;
+				left: 100px;
+		}
+		to{
+				width: 45px;
+				height: 45px;
+				top: 77.5px;
+				left: 77.5px;
+		}
+}
+
+@keyframes c3{
+		from{
+				width: 0;
+				height: 0;
+				top: 100px;
+				left: 100px;
+		} 
+		to{
+				width:  20px;
+				height: 20px;
+				top:  90px;
+				left: 90px;
+		}
+}  
+
+
+
+
+
+
+
+
